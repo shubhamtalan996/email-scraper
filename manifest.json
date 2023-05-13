@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Email scraper",
+  "version": "1.0",
+  "description": "display all the email, search and sort impl",
+
+  "action": {
+    "default_popup": "extension_modal.html"
+  },
+
+  "icons": {
+    "16": "images/email.svg",
+    "32": "images/email.svg",
+    "48": "images/email.svg",
+    "128": "images/email.svg"
+  },
+
+  "permissions": ["activeTab", "scripting"]
+}
